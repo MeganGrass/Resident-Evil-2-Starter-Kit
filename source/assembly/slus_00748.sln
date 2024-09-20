@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slus_00748", "slus_00748.vcxproj", "{2D2ECF50-A1C1-422E-8060-2FBC5B7B2F85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		bin|mipsr3000a = bin|mipsr3000a
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D2ECF50-A1C1-422E-8060-2FBC5B7B2F85}.bin|mipsr3000a.ActiveCfg = bin|Win32
+		{2D2ECF50-A1C1-422E-8060-2FBC5B7B2F85}.bin|mipsr3000a.Build.0 = bin|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4131FE-DDDA-44B7-9C6C-14C750757DD6}
+	EndGlobalSection
+EndGlobal

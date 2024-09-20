@@ -1,0 +1,27 @@
+
+	org	0x801BFA18
+
+text    group
+bss     group   bss
+	section .rdata,text 
+	section .text,text
+	section .ctors,text 
+	section .dtors,text 
+	section .data,text 
+	section .sdata,text 
+	section .sbss,bss 
+	section .bss,bss
+
+	include	"OBJ\\PSX\\BUILD\\BIO2.OBJ"
+	include	"OBJ\\PSX\\BUILD\\ROOMJUMP.OBJ"
+	include	"OBJ\\PSX\\BUILD\\COMMON.OBJ"
+
+OVERLAY	group	obj(0x801BFA18),file("OBJ\\PSX\\BUILD\\ROOMJUMP.BIN")
+	section OVERLAY.rdata,OVERLAY
+	section OVERLAY.text,OVERLAY	; title sections
+	section OVERLAY.ctors,OVERLAY
+	section OVERLAY.dtors,OVERLAY
+	section OVERLAY.data,OVERLAY
+	section OVERLAY.sdata,OVERLAY
+	section OVERLAY.sbss,OVERLAY
+	section OVERLAY.bss,OVERLAY

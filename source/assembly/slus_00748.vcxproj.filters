@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="slus_00748.s" />
+    <None Include="boot\hook.s">
+      <Filter>boot</Filter>
+    </None>
+    <None Include="boot\logo.s">
+      <Filter>boot</Filter>
+    </None>
+    <None Include="directive.s" />
+    <None Include="audio.s" />
+    <None Include="clean.s" />
+    <None Include="overlay.s" />
+    <None Include="compression\lz_dec.s">
+      <Filter>compression</Filter>
+    </None>
+    <None Include="disk\filecode.s">
+      <Filter>disk</Filter>
+    </None>
+    <None Include="disk\task.s">
+      <Filter>disk</Filter>
+    </None>
+    <None Include="enemy\cdemd0.s">
+      <Filter>enemy</Filter>
+    </None>
+    <None Include="enemy\cdemd1.s">
+      <Filter>enemy</Filter>
+    </None>
+    <None Include="overlay\diedemo.s">
+      <Filter>overlay</Filter>
+    </None>
+    <None Include="overlay\ending.s">
+      <Filter>overlay</Filter>
+    </None>
+    <None Include="overlay\opening.s">
+      <Filter>overlay</Filter>
+    </None>
+    <None Include="overlay\select.s">
+      <Filter>overlay</Filter>
+    </None>
+    <None Include="player\pl_mv05.s">
+      <Filter>player</Filter>
+    </None>
+    <None Include="player\Pl_weapon_ch.s">
+      <Filter>player</Filter>
+    </None>
+    <None Include="player\Player_set.s">
+      <Filter>player</Filter>
+    </None>
+    <None Include="stage\Load_bss.s">
+      <Filter>stage</Filter>
+    </None>
+    <None Include="stage\Load_rdt.s">
+      <Filter>stage</Filter>
+    </None>
+    <None Include="stage\Set_stage.s">
+      <Filter>stage</Filter>
+    </None>
+    <None Include="str\Movie_tbl.s">
+      <Filter>str</Filter>
+    </None>
+    <None Include="sound\Snd_bgm.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\Snd_bgm_ck.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\Snd_bgm_set.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage1.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage2.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage3.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage4.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage5.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage6.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="sound\stage7.s">
+      <Filter>sound</Filter>
+    </None>
+    <None Include="..\..\audio.bat">
+      <Filter>batch</Filter>
+    </None>
+    <None Include="..\..\build.bat">
+      <Filter>batch</Filter>
+    </None>
+    <None Include="..\..\executable.bat">
+      <Filter>batch</Filter>
+    </None>
+    <None Include="..\..\msbuild.bat">
+      <Filter>batch</Filter>
+    </None>
+    <None Include="..\..\overlay.bat">
+      <Filter>batch</Filter>
+    </None>
+    <None Include="custom.s" />
+    <None Include="bio2.s" />
+    <None Include="player\Player_move.s">
+      <Filter>player</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="boot">
+      <UniqueIdentifier>{781f2959-291e-41bb-8426-a30d4ca6f215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="compression">
+      <UniqueIdentifier>{d1485505-c0db-4c00-8959-f837c20b2f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disk">
+      <UniqueIdentifier>{dec6c346-a59d-4145-8682-97775d7b9573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{26b8cd04-860d-4c39-a7d1-227d36bb4715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{5949e7a7-31cf-4bea-a445-4dd9013ea628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{71fb15ae-be4a-4c1c-ae62-42543f7d052c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stage">
+      <UniqueIdentifier>{3ba46ddf-444a-4b72-b694-12a7ccfdd5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="str">
+      <UniqueIdentifier>{d6f1d80d-fcbb-4055-9a6d-50d8b16e7edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{8edfd8f2-6720-4657-9ff8-8dd019230a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="batch">
+      <UniqueIdentifier>{ba7d2f9a-0013-42a2-b5bc-8e41b5cfec17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boot", "boot\boot.vcxproj", "{45546A99-E534-4DF2-870A-E5E8348AC271}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "debug", "debug\debug.vcxproj", "{A8CEF999-B6F7-4007-9E27-5BA116B7B652}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "roomjump", "room_jump\roomjump.vcxproj", "{91503543-57A1-49B1-BB10-DBBE094EA4BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		bin|mipsr3000a = bin|mipsr3000a
+		bin|psx = bin|psx
+		build|mipsr3000a = build|mipsr3000a
+		build|psx = build|psx
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|mipsr3000a.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|mipsr3000a.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|psx.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|psx.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|mipsr3000a.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|mipsr3000a.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|psx.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|psx.Build.0 = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.bin|mipsr3000a.ActiveCfg = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.bin|mipsr3000a.Build.0 = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.bin|psx.ActiveCfg = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.bin|psx.Build.0 = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.build|mipsr3000a.ActiveCfg = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.build|mipsr3000a.Build.0 = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.build|psx.ActiveCfg = build|psx
+		{A8CEF999-B6F7-4007-9E27-5BA116B7B652}.build|psx.Build.0 = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.bin|mipsr3000a.ActiveCfg = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.bin|mipsr3000a.Build.0 = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.bin|psx.ActiveCfg = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.bin|psx.Build.0 = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.build|mipsr3000a.ActiveCfg = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.build|mipsr3000a.Build.0 = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.build|psx.ActiveCfg = build|psx
+		{91503543-57A1-49B1-BB10-DBBE094EA4BF}.build|psx.Build.0 = build|psx
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4131FE-DDDA-44B7-9C6C-14C750757DD6}
+	EndGlobalSection
+EndGlobal

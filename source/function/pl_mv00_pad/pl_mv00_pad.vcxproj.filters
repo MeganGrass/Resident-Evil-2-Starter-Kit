@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pl_mv00_pad.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="Makefile.link" />
+    <None Include="pl_mv00_pad.asm">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\assembly\bio2.s" />
+    <None Include="..\..\assembly\custom.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bio2">
+      <UniqueIdentifier>{f3dbfd5d-4c4b-472e-a104-15a78972971f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{8a5cbefb-b9ff-471f-89a2-9d12d404b5a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{91875438-e6da-44c4-90b3-78473cffc166}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bio2\bio2.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\controller.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\data.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\defines.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\flag.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\print.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\psyq.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\types.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\controller.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\custom.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\filecode.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\loadtask.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\print.h">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="Makefile.link" />
+    <None Include="Cd_read.asm">
+      <Filter>source</Filter>
+    </None>
+    <None Include="..\..\assembly\bio2.s" />
+    <None Include="..\..\assembly\custom.s" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="bio2">
+      <UniqueIdentifier>{425653de-8a7a-4477-90e7-7edb449391ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="custom">
+      <UniqueIdentifier>{ab9318a2-4a84-46ff-990e-160e51b24339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{15a4f810-5f96-4a8f-ae28-731636cb7fce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bio2\bio2.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\controller.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\data.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\defines.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\flag.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\print.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\psyq.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\bio2\types.h">
+      <Filter>bio2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\controller.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\custom.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\filecode.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\loadtask.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\custom\print.h">
+      <Filter>custom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cd_read.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,378 @@
+/*
+* $PSLibId: Run-time Library Release 4.7$
+* Copyright (C) by Sony Corporation All rights Reserved
+*/
+
+#include "TYPES.H"
+
+typedef struct MATRIX {
+	SHORT m[3][3];		// 00000000
+	LONG t[3];		// 00000014
+} MATRIX;
+typedef struct VECTOR {
+	LONG vx;		// 00000000
+	LONG vy;		// 00000004
+	LONG vz;		// 00000008
+	LONG pad;		// 0000000C
+} VECTOR;
+typedef struct SVECTOR {
+	SHORT vx;		// 00000000
+	SHORT vy;		// 00000002
+	SHORT vz;		// 00000004
+	SHORT pad;		// 00000006
+} SVECTOR;
+typedef struct CVECTOR {
+	UCHAR r;		// 00000000
+	UCHAR g;		// 00000001
+	UCHAR b;		// 00000002
+	UCHAR cd;		// 00000003
+} CVECTOR;
+typedef struct DVECTOR {
+	SHORT vx;		// 00000000
+	SHORT vy;		// 00000002
+} DVECTOR;
+typedef struct RVECTOR {
+	SVECTOR v;		// 00000000
+	UCHAR uv[2];		// 00000008
+	USHORT pad;		// 0000000A
+	CVECTOR c;		// 0000000C
+	DVECTOR sxy;		// 00000010
+	ULONG sz;		// 00000014
+} RVECTOR;
+typedef struct CRVECTOR3 {
+	RVECTOR r01;		// 00000000
+	RVECTOR r12;		// 00000018
+	RVECTOR r20;		// 00000030
+	RVECTOR* r0;		// 00000048
+	RVECTOR* r1;		// 0000004C
+	RVECTOR* r2;		// 00000050
+	ULONG* rtn;		// 00000054
+} CRVECTOR3;
+typedef struct DIVPOLYGON3 {
+	ULONG ndiv;		// 00000000
+	ULONG pih;		// 00000004
+	ULONG piv;		// 00000008
+	USHORT clut;		// 0000000C
+	USHORT tpage;		// 0000000E
+	CVECTOR rgbc;		// 00000010
+	ULONG* ot;		// 00000014
+	RVECTOR r0;		// 00000018
+	RVECTOR r1;		// 00000030
+	RVECTOR r2;		// 00000048
+	CRVECTOR3 cr[5];		// 00000060
+} DIVPOLYGON3;
+typedef struct RECT {
+	SHORT x;		// 00000000
+	SHORT y;		// 00000002
+	SHORT w;		// 00000004
+	SHORT h;		// 00000006
+} RECT;
+typedef struct DR_ENV {
+	ULONG tag;		// 00000000
+	ULONG code[15];		// 00000004
+} DR_ENV;
+typedef struct DRAWENV {
+	RECT clip;		// 00000000
+	SHORT ofs[2];		// 00000008
+	RECT tw;		// 0000000C
+	USHORT tpage;		// 00000014
+	UCHAR dtd;		// 00000016
+	UCHAR dfe;		// 00000017
+	UCHAR isbg;		// 00000018
+	UCHAR r0;		// 00000019
+	UCHAR g0;		// 0000001A
+	UCHAR b0;		// 0000001B
+	DR_ENV dr_env;		// 0000001C
+} DRAWENV;
+typedef struct DISPENV {
+	RECT disp;		// 00000000
+	RECT screen;		// 00000008
+	UCHAR isinter;		// 00000010
+	UCHAR isrgb24;		// 00000011
+	UCHAR pad0;		// 00000012
+	UCHAR pad1;		// 00000013
+} DISPENV;
+typedef struct POLY_F4 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	SHORT x1;		// 0000000C
+	SHORT y1;		// 0000000E
+	SHORT x2;		// 00000010
+	SHORT y2;		// 00000012
+	SHORT x3;		// 00000014
+	SHORT y3;		// 00000016
+} POLY_F4;
+typedef struct POLY_FT4 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR u0;		// 0000000C
+	UCHAR v0;		// 0000000D
+	USHORT clut;		// 0000000E
+	SHORT x1;		// 00000010
+	SHORT y1;		// 00000012
+	UCHAR u1;		// 00000014
+	UCHAR v1;		// 00000015
+	USHORT tpage;		// 00000016
+	SHORT x2;		// 00000018
+	SHORT y2;		// 0000001A
+	UCHAR u2;		// 0000001C
+	UCHAR v2;		// 0000001D
+	USHORT pad1;		// 0000001E
+	SHORT x3;		// 00000020
+	SHORT y3;		// 00000022
+	UCHAR u3;		// 00000024
+	UCHAR v3;		// 00000025
+	USHORT pad2;		// 00000026
+} POLY_FT4;
+typedef struct POLY_G3 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR r1;		// 0000000C
+	UCHAR g1;		// 0000000D
+	UCHAR b1;		// 0000000E
+	UCHAR pad1;		// 0000000F
+	SHORT x1;		// 00000010
+	SHORT y1;		// 00000012
+	UCHAR r2;		// 00000014
+	UCHAR g2;		// 00000015
+	UCHAR b2;		// 00000016
+	UCHAR pad2;		// 00000017
+	SHORT x2;		// 00000018
+	SHORT y2;		// 0000001A
+} POLY_G3;
+typedef struct POLY_G4 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR r1;		// 0000000C
+	UCHAR g1;		// 0000000D
+	UCHAR b1;		// 0000000E
+	UCHAR pad1;		// 0000000F
+	SHORT x1;		// 00000010
+	SHORT y1;		// 00000012
+	UCHAR r2;		// 00000014
+	UCHAR g2;		// 00000015
+	UCHAR b2;		// 00000016
+	UCHAR pad2;		// 00000017
+	SHORT x2;		// 00000018
+	SHORT y2;		// 0000001A
+	UCHAR r3;		// 0000001C
+	UCHAR g3;		// 0000001D
+	UCHAR b3;		// 0000001E
+	UCHAR pad3;		// 0000001F
+	SHORT x3;		// 00000020
+	SHORT y3;		// 00000022
+} POLY_G4;
+typedef struct POLY_GT3 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR u0;		// 0000000C
+	UCHAR v0;		// 0000000D
+	USHORT clut;		// 0000000E
+	UCHAR r1;		// 00000010
+	UCHAR g1;		// 00000011
+	UCHAR b1;		// 00000012
+	UCHAR p1;		// 00000013
+	SHORT x1;		// 00000014
+	SHORT y1;		// 00000016
+	UCHAR u1;		// 00000018
+	UCHAR v1;		// 00000019
+	USHORT tpage;		// 0000001A
+	UCHAR r2;		// 0000001C
+	UCHAR g2;		// 0000001D
+	UCHAR b2;		// 0000001E
+	UCHAR p2;		// 0000001F
+	SHORT x2;		// 00000020
+	SHORT y2;		// 00000022
+	UCHAR u2;		// 00000024
+	UCHAR v2;		// 00000025
+	USHORT pad2;		// 00000026
+} POLY_GT3;
+typedef struct POLY_GT4 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR u0;		// 0000000C
+	UCHAR v0;		// 0000000D
+	USHORT clut;		// 0000000E
+	UCHAR r1;		// 00000010
+	UCHAR g1;		// 00000011
+	UCHAR b1;		// 00000012
+	UCHAR p1;		// 00000013
+	SHORT x1;		// 00000014
+	SHORT y1;		// 00000016
+	UCHAR u1;		// 00000018
+	UCHAR v1;		// 00000019
+	USHORT tpage;		// 0000001A
+	UCHAR r2;		// 0000001C
+	UCHAR g2;		// 0000001D
+	UCHAR b2;		// 0000001E
+	UCHAR p2;		// 0000001F
+	SHORT x2;		// 00000020
+	SHORT y2;		// 00000022
+	UCHAR u2;		// 00000024
+	UCHAR v2;		// 00000025
+	USHORT pad2;		// 00000026
+	UCHAR r3;		// 00000028
+	UCHAR g3;		// 00000029
+	UCHAR b3;		// 0000002A
+	UCHAR p3;		// 0000002B
+	SHORT x3;		// 0000002C
+	SHORT y3;		// 0000002E
+	UCHAR u3;		// 00000030
+	UCHAR v3;		// 00000031
+	USHORT pad3;		// 00000032
+} POLY_GT4;
+typedef struct LINE_F2 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	SHORT x1;		// 0000000C
+	SHORT y1;		// 0000000E
+} LINE_F2;
+typedef struct LINE_F3 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	SHORT x1;		// 0000000C
+	SHORT y1;		// 0000000E
+	SHORT x2;		// 00000010
+	SHORT y2;		// 00000012
+	ULONG pad;		// 00000014
+} LINE_F3;
+typedef struct LINE_F4 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	SHORT x1;		// 0000000C
+	SHORT y1;		// 0000000E
+	SHORT x2;		// 00000010
+	SHORT y2;		// 00000012
+	SHORT x3;		// 00000014
+	SHORT y3;		// 00000016
+	ULONG pad;		// 00000018
+} LINE_F4;
+typedef struct SPRT {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR u0;		// 0000000C
+	UCHAR v0;		// 0000000D
+	USHORT clut;		// 0000000E
+	SHORT w;		// 00000010
+	SHORT h;		// 00000012
+} SPRT;
+typedef struct SPRT_8 {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	UCHAR u0;		// 0000000C
+	UCHAR v0;		// 0000000D
+	USHORT clut;		// 0000000E
+} SPRT_8;
+typedef struct TILE {
+	ULONG tag;		// 00000000
+	UCHAR r0;		// 00000004
+	UCHAR g0;		// 00000005
+	UCHAR b0;		// 00000006
+	UCHAR code;		// 00000007
+	SHORT x0;		// 00000008
+	SHORT y0;		// 0000000A
+	SHORT w;		// 0000000C
+	SHORT h;		// 0000000E
+} TILE;
+typedef struct DR_MODE {
+	ULONG tag;		// 00000000
+	ULONG code[2];		// 00000004
+} DR_MODE;
+typedef struct DR_MOVE {
+	ULONG tag;		// 00000000
+	ULONG code[5];		// 00000004
+} DR_MOVE;
+typedef struct EXEC {
+	ULONG pc0;
+	ULONG gp0;
+	ULONG t_addr;
+	ULONG t_size;
+	ULONG d_addr;
+	ULONG d_size;
+	ULONG b_addr;
+	ULONG b_size;
+	ULONG s_addr;
+	ULONG s_size;
+	ULONG sp, fp, gp, ret, base;
+} EXEC;
+typedef struct DslLOC {
+	UCHAR minute;
+	UCHAR second;
+	UCHAR sector;
+	UCHAR track;
+} DslLOC;
+typedef struct DslFILTER {
+	UCHAR file;
+	UCHAR chan;
+	USHORT pad;
+} DslFILTER;
+typedef struct DslATV {
+	UCHAR val0;
+	UCHAR val1;
+	UCHAR val2;
+	UCHAR val3;
+} DslATV;
+typedef struct DslFILE {
+	DslLOC pos;
+	ULONG size;
+	CHAR name[16];
+} DslFILE;
+typedef struct SndVolume {
+	USHORT left;		// 00000000
+	USHORT right;		// 00000002
+} SndVolume;

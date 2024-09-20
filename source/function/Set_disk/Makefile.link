@@ -1,0 +1,26 @@
+
+	org	0x800A70FC
+
+text    group
+bss     group   bss
+	section .rdata,text 
+	section .text,text
+	section .ctors,text 
+	section .dtors,text 
+	section .data,text 
+	section .sdata,text 
+	section .sbss,bss 
+	section .bss,bss
+
+	include	"OBJ\\PSX\\BUILD\\BIO2.OBJ"
+	include	"OBJ\\PSX\\BUILD\\SET_DISK.OBJ"
+
+OVERLAY	group	obj(0x800A70FC),file("OBJ\\PSX\\BUILD\\SET_DISK.BIN")
+	section OVERLAY.rdata,OVERLAY
+	section OVERLAY.text,OVERLAY	; title sections
+	section OVERLAY.ctors,OVERLAY
+	section OVERLAY.dtors,OVERLAY
+	section OVERLAY.data,OVERLAY
+	section OVERLAY.sdata,OVERLAY
+	section OVERLAY.sbss,OVERLAY
+	section OVERLAY.bss,OVERLAY

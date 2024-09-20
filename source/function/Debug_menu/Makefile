@@ -1,0 +1,26 @@
+## Executable ##
+CC			=CCPSX
+ASM			=ASMPSX
+LINK		=SLINK
+
+## Commandline ##
+CCOPT		=-c -O2 -G0 -mgpopt -ansi -Wall -comments-c++ -Wa,sOVERLAY -nostdlib
+ASMOPT		=/l /o c+ /o an+ /o w+ /zd /x
+LINKOPT		=/psx /c /p
+PARSER		=parser "OBJ\\PSX\\BUILD\\DEBUGMENU.MAP" "OBJ\\PSX\\BUILD\\DEBUGMENU.S"
+
+## Project ##
+all: build
+build:
+	$(CC) $(CCOPT) "DEBUG_MENU.CPP" -o"OBJ\\PSX\\BUILD\\DEBUG_MENU.OBJ"
+	$(ASM) $(ASMOPT) ../../ASSEMBLY/BIO2.S,OBJ/PSX/BUILD/BIO2.OBJ
+	$(LINK) $(LINKOPT) @MAKEFILE.LINK,OBJ/PSX/BUILD/DEBUGMENU.CPE,OBJ/PSX/BUILD/DEBUGMENU.SYM,OBJ/PSX/BUILD/DEBUGMENU.MAP
+	$(PARSER)
+rebuild: clean | all
+clean:
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.BIN"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.CPE"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.MAP"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.OBJ"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.SYM"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\DEBUGMENU.S"

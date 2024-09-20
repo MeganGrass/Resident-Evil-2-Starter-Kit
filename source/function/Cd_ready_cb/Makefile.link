@@ -1,0 +1,26 @@
+
+	org	0x8001376c
+
+text    group
+bss     group   bss
+	section .rdata,text 
+	section .text,text
+	section .ctors,text 
+	section .dtors,text 
+	section .data,text 
+	section .sdata,text 
+	section .sbss,bss 
+	section .bss,bss
+
+	include	"OBJ\\PSX\\BUILD\\BIO2.OBJ"
+	include	"OBJ\\PSX\\BUILD\\CD_READY_CB.OBJ"
+
+OVERLAY	group	obj(0x8001376c),file("OBJ\\PSX\\BUILD\\CD_READY_CB.BIN")
+	section OVERLAY.rdata,OVERLAY
+	section OVERLAY.text,OVERLAY	; title sections
+	section OVERLAY.ctors,OVERLAY
+	section OVERLAY.dtors,OVERLAY
+	section OVERLAY.data,OVERLAY
+	section OVERLAY.sdata,OVERLAY
+	section OVERLAY.sbss,OVERLAY
+	section OVERLAY.bss,OVERLAY

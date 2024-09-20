@@ -1,0 +1,332 @@
+<iso_project image_name="SLUS_00748.BIN" cue_sheet="SLUS_00748.CUE">
+  <track type="data">
+    <identifiers system="PLAYSTATION" application="PLAYSTATION" volume="SLUS_00748" publisher="CAPCOM CO.,LTD." data_preparer="CAPCOM CO.,LTD." creation_date="1998072114000000+36"/>
+    <license file="asset/license_data.dat"/>
+    <default_attributes gmt_offs="36" xa_attrib="32" xa_perm="1365" xa_gid="0" xa_uid="0"/>
+    <directory_tree>
+      <dir name="BIN" source="DISC/OVERLAY"/>
+      <file name="ZNULL.DAT" trackid="02" type="da"/>
+      <dir name="BIN">
+        <file name="BOOT.BIN" source="DISC/OVERLAY/BOOT.BIN" type="data"/>
+        <file name="CONFIG.BIN" source="DISC/OVERLAY/CONFIG.BIN" type="data"/>
+        <file name="DEBUG.BIN" source="DISC/OVERLAY/DEBUG.BIN" type="data"/>
+        <file name="DIEDEMO.BIN" source="DISC/OVERLAY/DIEDEMO.BIN" type="data"/>
+        <file name="ENDING.BIN" source="DISC/OVERLAY/ENDING.BIN" type="data"/>
+        <file name="MEM_CARD.BIN" source="DISC/OVERLAY/MEM_CARD.BIN" type="data"/>
+        <file name="OPENING.BIN" source="DISC/OVERLAY/OPENING.BIN" type="data"/>
+        <file name="RESULT.BIN" source="DISC/OVERLAY/RESULT.BIN" type="data"/>
+        <file name="ROOMJUMP.BIN" source="DISC/OVERLAY/ROOMJUMP.BIN" type="data"/>
+        <file name="SELECT.BIN" source="DISC/OVERLAY/SELECT.BIN" type="data"/>
+        <file name="ZNULL0A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+      </dir>
+      <dir name="BSS">
+        <file name="PDEMO00.DAT" source="ASSET/PL0/PLD/PDEMO00.DAT" type="data"/>
+        <file name="PDEMO01.DAT" source="ASSET/PL0/PLD/PDEMO01.DAT" type="data"/>
+        <file name="PDEMO02.DAT" source="ASSET/PL0/PLD/PDEMO02.DAT" type="data"/>
+        <file name="PDEMO10.DAT" source="ASSET/PL1/PLD/PDEMO10.DAT" type="data"/>
+        <file name="PDEMO11.DAT" source="ASSET/PL1/PLD/PDEMO11.DAT" type="data"/>
+        <file name="PDEMO12.DAT" source="ASSET/PL1/PLD/PDEMO12.DAT" type="data"/>
+        <file name="ROOM800.SND" source="ASSET/COMMON/SOUND/ROOM800.SND" type="data"/>
+        <file name="ZNULL07.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL08.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL09.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL0F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL10.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL11.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL12.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL13.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL14.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL15.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL16.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL17.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL18.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL19.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL1F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL20.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL21.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL22.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL23.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL24.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL25.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL26.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL27.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL28.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL29.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL2F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL30.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL31.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL32.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL33.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL34.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL35.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL36.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL37.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL38.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL39.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL3F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL40.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL41.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL42.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL43.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL44.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL45.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL46.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL47.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL48.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL49.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL4F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL50.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL51.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL52.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL53.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL54.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL55.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL56.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL57.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL58.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL59.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL5F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL60.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL61.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL62.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL63.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL64.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL65.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL66.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL67.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL68.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL69.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6D.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6E.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL6F.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL70.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL71.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL72.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL73.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL74.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL75.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL76.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL77.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL78.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL79.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL7A.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL7B.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+        <file name="ZNULL7C.BIN" source="ASSET/DUMMY.FILE" type="data"/>
+      </dir>
+      <dir name="DATA" source="ASSET/COMMON/DATA">
+        <file name="CLEAR1.PIX" source="ASSET/COMMON/DATA/CLEAR1.PIX" type="data"/>
+        <file name="CLEAR2.PIX" source="ASSET/COMMON/DATA/CLEAR2.PIX" type="data"/>
+        <file name="COLOR.TIM" source="ASSET/COMMON/DATA/COLOR.TIM" type="data"/>
+        <file name="CONFIG.TIM" source="ASSET/COMMON/DATA/CONFIG.TIM" type="data"/>
+        <file name="CORE00.ESP" source="ASSET/COMMON/DATA/CORE00.ESP" type="data"/>
+        <file name="CORE01.TIM" source="ASSET/COMMON/DATA/CORE01.TIM" type="data"/>
+        <file name="DIED00.DIE" source="ASSET/COMMON/DATA/DIED00.DIE" type="data"/>
+        <file name="DIED01.DIE" source="ASSET/COMMON/DATA/DIED01.DIE" type="data"/>
+        <file name="DIED0B.DIE" source="ASSET/COMMON/DATA/DIED0B.DIE" type="data"/>
+        <file name="DIED0C.DIE" source="ASSET/COMMON/DATA/DIED0C.DIE" type="data"/>
+        <file name="DIED0D.DIE" source="ASSET/COMMON/DATA/DIED0D.DIE" type="data"/>
+        <file name="DIED0E.DIE" source="ASSET/COMMON/DATA/DIED0E.DIE" type="data"/>
+        <file name="DIED0F.DIE" source="ASSET/COMMON/DATA/DIED0F.DIE" type="data"/>
+        <file name="END00.TIM" source="ASSET/COMMON/DATA/END00.TIM" type="data"/>
+        <file name="END10.TIM" source="ASSET/COMMON/DATA/END10.TIM" type="data"/>
+        <file name="END11.TIM" source="ASSET/COMMON/DATA/END11.TIM" type="data"/>
+        <file name="END12.TIM" source="ASSET/COMMON/DATA/END12.TIM" type="data"/>
+        <file name="END13.TIM" source="ASSET/COMMON/DATA/END13.TIM" type="data"/>
+        <file name="END14.TIM" source="ASSET/COMMON/DATA/END14.TIM" type="data"/>
+        <file name="END15.TIM" source="ASSET/COMMON/DATA/END15.TIM" type="data"/>
+        <file name="END16.TIM" source="ASSET/COMMON/DATA/END16.TIM" type="data"/>
+        <file name="END17.TIM" source="ASSET/COMMON/DATA/END17.TIM" type="data"/>
+        <file name="END18.TIM" source="ASSET/COMMON/DATA/END18.TIM" type="data"/>
+        <file name="END19.TIM" source="ASSET/COMMON/DATA/END19.TIM" type="data"/>
+        <file name="EXTITLE.TIM" source="ASSET/COMMON/DATA/EXTITLE.TIM" type="data"/>
+        <file name="EXTITLE1.TIM" source="ASSET/COMMON/DATA/EXTITLE1.TIM" type="data"/>
+        <file name="FILES.TIM" source="ASSET/COMMON/DATA/FILES.TIM" type="data"/>
+        <file name="GWARNING.TIM" source="ASSET/COMMON/DATA/GWARNING.TIM" type="data"/>
+        <file name="INIT_TBL.DAT" source="ASSET/COMMON/DATA/INIT_TBL.DAT" type="data"/>
+        <file name="ITEMALL.PIX" source="ASSET/COMMON/DATA/ITEMALL.PIX" type="data"/>
+        <file name="ITPS.ITP" source="ASSET/COMMON/DATA/ITPS.ITP" type="data"/>
+        <file name="MAPS.PIX" source="ASSET/COMMON/DATA/MAPS.PIX" type="data"/>
+        <file name="MIX.PIX" source="ASSET/COMMON/DATA/MIX.PIX" type="data"/>
+        <file name="OPEN00.TIM" source="ASSET/COMMON/DATA/OPEN00.TIM" type="data"/>
+        <file name="OPEN01.TIM" source="ASSET/COMMON/DATA/OPEN01.TIM" type="data"/>
+        <file name="OPEN02.TIM" source="ASSET/COMMON/DATA/OPEN02.TIM" type="data"/>
+        <file name="OPEN03.TIM" source="ASSET/COMMON/DATA/OPEN03.TIM" type="data"/>
+        <file name="OPEN04.TIM" source="ASSET/COMMON/DATA/OPEN04.TIM" type="data"/>
+        <file name="OPEN05.TIM" source="ASSET/COMMON/DATA/OPEN05.TIM" type="data"/>
+        <file name="OPEN06.TIM" source="ASSET/COMMON/DATA/OPEN06.TIM" type="data"/>
+        <file name="OPEN07.TIM" source="ASSET/COMMON/DATA/OPEN07.TIM" type="data"/>
+        <file name="OPEN10.TIM" source="ASSET/COMMON/DATA/OPEN10.TIM" type="data"/>
+        <file name="OPEN11.TIM" source="ASSET/COMMON/DATA/OPEN11.TIM" type="data"/>
+        <file name="OPEN12.TIM" source="ASSET/COMMON/DATA/OPEN12.TIM" type="data"/>
+        <file name="OPEN13.TIM" source="ASSET/COMMON/DATA/OPEN13.TIM" type="data"/>
+        <file name="OPEN14.TIM" source="ASSET/COMMON/DATA/OPEN14.TIM" type="data"/>
+        <file name="OPNC.CPT" source="ASSET/COMMON/DATA/OPNC.CPT" type="data"/>
+        <file name="OPNL.CPT" source="ASSET/COMMON/DATA/OPNL.CPT" type="data"/>
+        <file name="OPNW.CPT" source="ASSET/COMMON/DATA/OPNW.CPT" type="data"/>
+        <file name="PADDDSU.TIM" source="ASSET/COMMON/DATA/PADDDSU.TIM" type="data"/>
+        <file name="PADDU.TIM" source="ASSET/COMMON/DATA/PADDU.TIM" type="data"/>
+        <file name="R108.CPT" source="ASSET/COMMON/DATA/R108.CPT" type="data"/>
+        <file name="R204C16.PIX" source="ASSET/COMMON/DATA/R204C16.PIX" type="data"/>
+        <file name="R204L16.PIX" source="ASSET/COMMON/DATA/R204L16.PIX" type="data"/>
+        <file name="R40X.CPT" source="ASSET/COMMON/DATA/R40X.CPT" type="data"/>
+        <file name="R700C.CPT" source="ASSET/COMMON/DATA/R700C.CPT" type="data"/>
+        <file name="R700L.CPT" source="ASSET/COMMON/DATA/R700L.CPT" type="data"/>
+        <file name="R703C.CPT" source="ASSET/COMMON/DATA/R703C.CPT" type="data"/>
+        <file name="R703L.CPT" source="ASSET/COMMON/DATA/R703L.CPT" type="data"/>
+        <file name="R704C.CPT" source="ASSET/COMMON/DATA/R704C.CPT" type="data"/>
+        <file name="R704L.CPT" source="ASSET/COMMON/DATA/R704L.CPT" type="data"/>
+        <file name="RES_MOJI.TIM" source="ASSET/COMMON/DATA/RES_MOJI.TIM" type="data"/>
+        <file name="RESULT.TIM" source="ASSET/COMMON/DATA/RESULT.TIM" type="data"/>
+        <file name="SELECT.TIM" source="ASSET/COMMON/DATA/SELECT.TIM" type="data"/>
+        <file name="SELECTH.TIM" source="ASSET/COMMON/DATA/SELECTH.TIM" type="data"/>
+        <file name="SELECTH2.TIM" source="ASSET/COMMON/DATA/SELECTH2.TIM" type="data"/>
+        <file name="SELECTH3.TIM" source="ASSET/COMMON/DATA/SELECTH3.TIM" type="data"/>
+        <file name="SELECT_B.TIM" source="ASSET/COMMON/DATA/SELECT_B.TIM" type="data"/>
+        <file name="SELECT_W.TIM" source="ASSET/COMMON/DATA/SELECT_W.TIM" type="data"/>
+        <file name="SPY_LOGO.TIM" source="ASSET/COMMON/DATA/SPY_LOGO.TIM" type="data"/>
+        <file name="ST0.TIM" source="ASSET/COMMON/DATA/ST0.TIM" type="data"/>
+        <file name="ST1.TIM" source="ASSET/COMMON/DATA/ST1.TIM" type="data"/>
+        <file name="ST1_.TIM" source="ASSET/COMMON/DATA/ST1_.TIM" type="data"/>
+        <file name="ST1_FONT.TIM" source="ASSET/COMMON/DATA/ST1_FONT.TIM" type="data"/>
+        <file name="ST2_FONT.TIM" source="ASSET/COMMON/DATA/ST2_FONT.TIM" type="data"/>
+        <file name="ST3_FONT.TIM" source="ASSET/COMMON/DATA/ST3_FONT.TIM" type="data"/>
+        <file name="ST4_FONT.TIM" source="ASSET/COMMON/DATA/ST4_FONT.TIM" type="data"/>
+        <file name="ST5_FONT.TIM" source="ASSET/COMMON/DATA/ST5_FONT.TIM" type="data"/>
+        <file name="ST6_FONT.TIM" source="ASSET/COMMON/DATA/ST6_FONT.TIM" type="data"/>
+        <file name="ST7_FONT.TIM" source="ASSET/COMMON/DATA/ST7_FONT.TIM" type="data"/>
+        <file name="ST_FILE.TIM" source="ASSET/COMMON/DATA/ST_FILE.TIM" type="data"/>
+        <file name="ST_FILE.TM2" source="ASSET/COMMON/DATA/ST_FILE.TM2" type="data"/>
+        <file name="ST_FILE.TS" source="ASSET/COMMON/DATA/ST_FILE.TS" type="data"/>
+        <file name="ST_MOJI.TIM" source="ASSET/COMMON/DATA/ST_MOJI.TIM" type="data"/>
+        <file name="STG.NXT" source="ASSET/COMMON/DATA/STG.NXT" type="data"/>
+        <file name="TEX.TIM" source="ASSET/COMMON/DATA/TEX.TIM" type="data"/>
+        <file name="TEX_PAL.TIM" source="ASSET/COMMON/DATA/TEX_PAL.TIM" type="data"/>
+        <file name="TITLE_O.TIM" source="ASSET/COMMON/DATA/TITLE_O.TIM" type="data"/>
+        <file name="TITLE_O2.TIM" source="ASSET/COMMON/DATA/TITLE_O2.TIM" type="data"/>
+        <file name="TIT_BG.TIM" source="ASSET/COMMON/DATA/TIT_BG.TIM" type="data"/>
+        <file name="TMOJI.TIM" source="ASSET/COMMON/DATA/TMOJI.TIM" type="data"/>
+        <file name="TOFULOGO.TIM" source="ASSET/COMMON/DATA/TOFULOGO.TIM" type="data"/>
+        <file name="TYPE00.PIX" source="ASSET/COMMON/DATA/TYPE00.PIX" type="data"/>
+        <file name="WARNING.TIM" source="ASSET/COMMON/DATA/WARNING.TIM" type="data"/>
+      </dir>
+      <dir name="RE2" source="DISC/BIO2">
+        <file name="BSS01.CDX" source="DISC/BIO2/BSS01.CDX" type="data"/>
+        <file name="BSS02.CDX" source="DISC/BIO2/BSS02.CDX" type="data"/>
+        <file name="BSS03.CDX" source="DISC/BIO2/BSS03.CDX" type="data"/>
+        <file name="BSS04.CDX" source="DISC/BIO2/BSS04.CDX" type="data"/>
+        <file name="BSS05.CDX" source="DISC/BIO2/BSS05.CDX" type="data"/>
+        <file name="BSS06.CDX" source="DISC/BIO2/BSS06.CDX" type="data"/>
+        <file name="BSS07.CDX" source="DISC/BIO2/BSS07.CDX" type="data"/>
+        <file name="DO2.CDX" source="DISC/BIO2/DO2.CDX" type="data"/>
+        <file name="EMD00.CDX" source="DISC/BIO2/EMD00.CDX" type="data"/>
+        <file name="EMD01.CDX" source="DISC/BIO2/EMD01.CDX" type="data"/>
+        <file name="PLD.CDX" source="DISC/BIO2/PLD.CDX" type="data"/>
+        <file name="PLW00.CDX" source="DISC/BIO2/PLW00.CDX" type="data"/>
+        <file name="PLW01.CDX" source="DISC/BIO2/PLW01.CDX" type="data"/>
+        <file name="PLW02.CDX" source="DISC/BIO2/PLW02.CDX" type="data"/>
+        <file name="PLW03.CDX" source="DISC/BIO2/PLW03.CDX" type="data"/>
+        <file name="PLW04.CDX" source="DISC/BIO2/PLW04.CDX" type="data"/>
+        <file name="PLW05.CDX" source="DISC/BIO2/PLW05.CDX" type="data"/>
+        <file name="PLW06.CDX" source="DISC/BIO2/PLW06.CDX" type="data"/>
+        <file name="PLW07.CDX" source="DISC/BIO2/PLW07.CDX" type="data"/>
+        <file name="PLW08.CDX" source="DISC/BIO2/PLW08.CDX" type="data"/>
+        <file name="PLW09.CDX" source="DISC/BIO2/PLW09.CDX" type="data"/>
+        <file name="PLW0A.CDX" source="DISC/BIO2/PLW0A.CDX" type="data"/>
+        <file name="PLW0B.CDX" source="DISC/BIO2/PLW0B.CDX" type="data"/>
+        <file name="PLW0C.CDX" source="DISC/BIO2/PLW0C.CDX" type="data"/>
+        <file name="PLW0D.CDX" source="DISC/BIO2/PLW0D.CDX" type="data"/>
+        <file name="PLW0E.CDX" source="DISC/BIO2/PLW0E.CDX" type="data"/>
+        <file name="PLW0F.CDX" source="DISC/BIO2/PLW0F.CDX" type="data"/>
+        <file name="SNDARMS.CDX" source="DISC/BIO2/SNDARMS.CDX" type="data"/>
+        <file name="SNDCORE.CDX" source="DISC/BIO2/SNDCORE.CDX" type="data"/>
+        <file name="SNDEMD.CDX" source="DISC/BIO2/SNDEMD.CDX" type="data"/>
+        <file name="SNDMAIN.CDX" source="DISC/BIO2/SNDMAIN.CDX" type="data"/>
+        <file name="SNDSUB.CDX" source="DISC/BIO2/SNDSUB.CDX" type="data"/>
+        <file name="STG0001.CDX" source="DISC/BIO2/STG0001.CDX" type="data"/>
+        <file name="STG0002.CDX" source="DISC/BIO2/STG0002.CDX" type="data"/>
+        <file name="STG0003.CDX" source="DISC/BIO2/STG0003.CDX" type="data"/>
+        <file name="STG0004.CDX" source="DISC/BIO2/STG0004.CDX" type="data"/>
+        <file name="STG0005.CDX" source="DISC/BIO2/STG0005.CDX" type="data"/>
+        <file name="STG0006.CDX" source="DISC/BIO2/STG0006.CDX" type="data"/>
+        <file name="STG0007.CDX" source="DISC/BIO2/STG0007.CDX" type="data"/>
+        <file name="STG0101.CDX" source="DISC/BIO2/STG0101.CDX" type="data"/>
+        <file name="STG0102.CDX" source="DISC/BIO2/STG0102.CDX" type="data"/>
+        <file name="STG0103.CDX" source="DISC/BIO2/STG0103.CDX" type="data"/>
+        <file name="STG0104.CDX" source="DISC/BIO2/STG0104.CDX" type="data"/>
+        <file name="STG0105.CDX" source="DISC/BIO2/STG0105.CDX" type="data"/>
+        <file name="STG0106.CDX" source="DISC/BIO2/STG0106.CDX" type="data"/>
+        <file name="STG0107.CDX" source="DISC/BIO2/STG0107.CDX" type="data"/>
+        <file name="STGEX01.CDX" source="DISC/BIO2/STGEX01.CDX" type="data"/>
+        <file name="STGEX02.CDX" source="DISC/BIO2/STGEX02.CDX" type="data"/>
+        <file name="STGEX03.CDX" source="DISC/BIO2/STGEX03.CDX" type="data"/>
+        <file name="STGEX04.CDX" source="DISC/BIO2/STGEX04.CDX" type="data"/>
+        <file name="STGEX05.CDX" source="DISC/BIO2/STGEX05.CDX" type="data"/>
+        <file name="STGEX06.CDX" source="DISC/BIO2/STGEX06.CDX" type="data"/>
+        <file name="STGEX07.CDX" source="DISC/BIO2/STGEX07.CDX" type="data"/>
+      </dir>
+      <dir name="VOICE">
+        <file name="VOICE00.XAS" source="ASSET/PL0/VOICE/VOICE00.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE01.XAS" source="ASSET/PL0/VOICE/VOICE01.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE02.XAS" source="ASSET/PL0/VOICE/VOICE02.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE03.XAS" source="ASSET/PL0/VOICE/VOICE03.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE04.XAS" source="ASSET/PL0/VOICE/VOICE04.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE05.XAS" source="ASSET/PL0/VOICE/VOICE05.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE06.XAS" source="ASSET/PL0/VOICE/VOICE06.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE07.XAS" source="ASSET/PL0/VOICE/VOICE07.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE08.XAS" source="ASSET/PL0/VOICE/VOICE08.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE09.XAS" source="ASSET/DUMMY.FILE" type="mixed" xa_attrib="16"/>
+        <file name="VOICE10.XAS" source="ASSET/PL1/VOICE/VOICE10.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE11.XAS" source="ASSET/PL1/VOICE/VOICE11.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE12.XAS" source="ASSET/PL1/VOICE/VOICE12.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE13.XAS" source="ASSET/PL1/VOICE/VOICE13.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE14.XAS" source="ASSET/PL1/VOICE/VOICE14.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE15.XAS" source="ASSET/PL1/VOICE/VOICE15.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE16.XAS" source="ASSET/PL1/VOICE/VOICE16.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE17.XAS" source="ASSET/PL1/VOICE/VOICE17.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE18.XAS" source="ASSET/PL1/VOICE/VOICE18.XAS" type="mixed" xa_attrib="16"/>
+        <file name="VOICE19.XAS" source="ASSET/DUMMY.FILE" type="mixed" xa_attrib="16"/>
+      </dir>
+      <file name="SYSTEM.CNF" source="ASSET/SYSTEM.CNF" type="data"/>
+      <file name="SLUS_007.48" source="DISC/SLUS_007.48" type="data"/>
+      <dummy sectors="150"/>
+    </directory_tree>
+  </track>
+  <track type="audio" trackid="02" source="ASSET/ZNULL.WAV"/>
+</iso_project>

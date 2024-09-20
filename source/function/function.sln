@@ -1,0 +1,161 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cd_ready_cb", "Cd_ready_cb\Cd_ready_cb.vcxproj", "{3AEBF997-031E-4B03-B9CC-BBB805789C0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Xa_play", "Xa_play\Xa_play.vcxproj", "{C1D25C55-FA5E-4BE9-966A-D7280068FC64}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "file_moji_load", "file_moji_load\file_moji_load.vcxproj", "{460FE962-7D9D-44C6-9028-177F1C21799F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cd_read_s", "Cd_read_s\Cd_read_s.vcxproj", "{FB362A47-F3E9-4149-9F97-573D285AE990}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cd_read", "Cd_read\Cd_read.vcxproj", "{45546A99-E534-4DF2-870A-E5E8348AC271}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cd_read_ex", "Cd_read_ex\Cd_read_ex.vcxproj", "{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Debug_menu", "Debug_menu\Debug_menu.vcxproj", "{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Emd_load_file", "Emd_load_file\Emd_load_file.vcxproj", "{450D3278-6474-4DA3-960D-36BB887AE1C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Load_pld", "Load_pld\Load_pld.vcxproj", "{36CE6770-8E77-4440-850C-94DA308A0BD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Load_plw_index", "Load_plw_index\Load_plw_index.vcxproj", "{5B23A176-B543-4714-95D9-5DCFB500DCEA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Set_disk", "Set_disk\Set_disk.vcxproj", "{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Load_stage", "Load_stage\Load_stage.vcxproj", "{99025756-E19B-4E87-9A98-EEBA06D257D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Load_bgm", "Load_bgm\Load_bgm.vcxproj", "{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pl_mv00_pad", "pl_mv00_pad\pl_mv00_pad.vcxproj", "{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		bin|mipsr3000a = bin|mipsr3000a
+		bin|psx = bin|psx
+		build|mipsr3000a = build|mipsr3000a
+		build|psx = build|psx
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.bin|mipsr3000a.ActiveCfg = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.bin|mipsr3000a.Build.0 = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.bin|psx.ActiveCfg = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.bin|psx.Build.0 = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.build|mipsr3000a.ActiveCfg = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.build|mipsr3000a.Build.0 = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.build|psx.ActiveCfg = build|psx
+		{3AEBF997-031E-4B03-B9CC-BBB805789C0C}.build|psx.Build.0 = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.bin|mipsr3000a.ActiveCfg = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.bin|mipsr3000a.Build.0 = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.bin|psx.ActiveCfg = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.bin|psx.Build.0 = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.build|mipsr3000a.ActiveCfg = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.build|mipsr3000a.Build.0 = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.build|psx.ActiveCfg = build|psx
+		{C1D25C55-FA5E-4BE9-966A-D7280068FC64}.build|psx.Build.0 = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.bin|mipsr3000a.ActiveCfg = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.bin|mipsr3000a.Build.0 = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.bin|psx.ActiveCfg = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.bin|psx.Build.0 = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.build|mipsr3000a.ActiveCfg = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.build|mipsr3000a.Build.0 = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.build|psx.ActiveCfg = build|psx
+		{460FE962-7D9D-44C6-9028-177F1C21799F}.build|psx.Build.0 = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.bin|mipsr3000a.ActiveCfg = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.bin|mipsr3000a.Build.0 = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.bin|psx.ActiveCfg = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.bin|psx.Build.0 = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.build|mipsr3000a.ActiveCfg = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.build|mipsr3000a.Build.0 = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.build|psx.ActiveCfg = build|psx
+		{FB362A47-F3E9-4149-9F97-573D285AE990}.build|psx.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|mipsr3000a.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|mipsr3000a.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|psx.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.bin|psx.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|mipsr3000a.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|mipsr3000a.Build.0 = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|psx.ActiveCfg = build|psx
+		{45546A99-E534-4DF2-870A-E5E8348AC271}.build|psx.Build.0 = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.bin|mipsr3000a.ActiveCfg = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.bin|mipsr3000a.Build.0 = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.bin|psx.ActiveCfg = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.bin|psx.Build.0 = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.build|mipsr3000a.ActiveCfg = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.build|mipsr3000a.Build.0 = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.build|psx.ActiveCfg = build|psx
+		{D67C3DE6-3612-4E04-A7B3-1361A3E66B8A}.build|psx.Build.0 = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.bin|mipsr3000a.ActiveCfg = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.bin|mipsr3000a.Build.0 = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.bin|psx.ActiveCfg = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.bin|psx.Build.0 = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.build|mipsr3000a.ActiveCfg = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.build|mipsr3000a.Build.0 = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.build|psx.ActiveCfg = build|psx
+		{A42A8D56-4EE5-4FB9-890D-29A1D76C5985}.build|psx.Build.0 = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.bin|mipsr3000a.ActiveCfg = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.bin|mipsr3000a.Build.0 = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.bin|psx.ActiveCfg = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.bin|psx.Build.0 = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.build|mipsr3000a.ActiveCfg = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.build|mipsr3000a.Build.0 = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.build|psx.ActiveCfg = build|psx
+		{450D3278-6474-4DA3-960D-36BB887AE1C8}.build|psx.Build.0 = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.bin|mipsr3000a.ActiveCfg = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.bin|mipsr3000a.Build.0 = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.bin|psx.ActiveCfg = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.bin|psx.Build.0 = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.build|mipsr3000a.ActiveCfg = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.build|mipsr3000a.Build.0 = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.build|psx.ActiveCfg = build|psx
+		{36CE6770-8E77-4440-850C-94DA308A0BD6}.build|psx.Build.0 = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.bin|mipsr3000a.ActiveCfg = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.bin|mipsr3000a.Build.0 = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.bin|psx.ActiveCfg = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.bin|psx.Build.0 = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.build|mipsr3000a.ActiveCfg = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.build|mipsr3000a.Build.0 = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.build|psx.ActiveCfg = build|psx
+		{5B23A176-B543-4714-95D9-5DCFB500DCEA}.build|psx.Build.0 = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.bin|mipsr3000a.ActiveCfg = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.bin|mipsr3000a.Build.0 = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.bin|psx.ActiveCfg = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.bin|psx.Build.0 = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.build|mipsr3000a.ActiveCfg = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.build|mipsr3000a.Build.0 = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.build|psx.ActiveCfg = build|psx
+		{AB68AC1D-3111-4D54-9DCD-909C77C2F7B2}.build|psx.Build.0 = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.bin|mipsr3000a.ActiveCfg = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.bin|mipsr3000a.Build.0 = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.bin|psx.ActiveCfg = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.bin|psx.Build.0 = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.build|mipsr3000a.ActiveCfg = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.build|mipsr3000a.Build.0 = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.build|psx.ActiveCfg = build|psx
+		{99025756-E19B-4E87-9A98-EEBA06D257D2}.build|psx.Build.0 = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.bin|mipsr3000a.ActiveCfg = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.bin|mipsr3000a.Build.0 = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.bin|psx.ActiveCfg = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.bin|psx.Build.0 = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.build|mipsr3000a.ActiveCfg = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.build|mipsr3000a.Build.0 = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.build|psx.ActiveCfg = build|psx
+		{7FE99D6C-289F-4F93-8974-3B4E4DA93E20}.build|psx.Build.0 = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.bin|mipsr3000a.ActiveCfg = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.bin|mipsr3000a.Build.0 = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.bin|psx.ActiveCfg = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.bin|psx.Build.0 = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.build|mipsr3000a.ActiveCfg = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.build|mipsr3000a.Build.0 = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.build|psx.ActiveCfg = build|psx
+		{ECAA73A7-CED6-42BE-B24A-8B23C3C4AF4F}.build|psx.Build.0 = build|psx
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4131FE-DDDA-44B7-9C6C-14C750757DD6}
+	EndGlobalSection
+EndGlobal

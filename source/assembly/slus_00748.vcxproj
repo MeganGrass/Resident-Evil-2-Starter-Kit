@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="bin|Win32">
+      <Configuration>bin</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2d2ecf50-a1c1-422e-8060-2fbc5b7b2f85}</ProjectGuid>
+    <RootNamespace>slus_00748</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='bin|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='bin|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='bin|Win32'">
+    <NMakeOutput>psx.exe</NMakeOutput>
+    <NMakePreprocessorDefinitions>
+    </NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>
+    </NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>
+    </NMakeForcedIncludes>
+    <OutDir>..\\..\\result</OutDir>
+    <NMakeCleanCommandLine>
+    </NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>chdir ..\..\
+build.bat</NMakeReBuildCommandLine>
+    <NMakeBuildCommandLine>chdir ..\..\
+build.bat</NMakeBuildCommandLine>
+    <IntDir>..\\..\\result</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='bin|Win32'">
+    <BuildLog>
+      <Path>..\\..\\result\\$(MSBuildProjectName).msbuild.log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\audio.bat" />
+    <None Include="..\..\build.bat" />
+    <None Include="..\..\executable.bat" />
+    <None Include="..\..\msbuild.bat" />
+    <None Include="..\..\overlay.bat" />
+    <None Include="audio.s" />
+    <None Include="bio2.s" />
+    <None Include="boot\hook.s" />
+    <None Include="boot\logo.s" />
+    <None Include="clean.s" />
+    <None Include="compression\lz_dec.s" />
+    <None Include="custom.s" />
+    <None Include="directive.s" />
+    <None Include="disk\filecode.s" />
+    <None Include="disk\task.s" />
+    <None Include="enemy\cdemd0.s" />
+    <None Include="enemy\cdemd1.s" />
+    <None Include="overlay.s" />
+    <None Include="overlay\diedemo.s" />
+    <None Include="overlay\ending.s" />
+    <None Include="overlay\opening.s" />
+    <None Include="overlay\select.s" />
+    <None Include="player\Player_move.s" />
+    <None Include="player\Player_set.s" />
+    <None Include="player\pl_mv05.s" />
+    <None Include="player\Pl_weapon_ch.s" />
+    <None Include="slus_00748.s" />
+    <None Include="sound\Snd_bgm.s" />
+    <None Include="sound\Snd_bgm_ck.s" />
+    <None Include="sound\Snd_bgm_set.s" />
+    <None Include="sound\stage1.s" />
+    <None Include="sound\stage2.s" />
+    <None Include="sound\stage3.s" />
+    <None Include="sound\stage4.s" />
+    <None Include="sound\stage5.s" />
+    <None Include="sound\stage6.s" />
+    <None Include="sound\stage7.s" />
+    <None Include="stage\Load_bss.s" />
+    <None Include="stage\Load_rdt.s" />
+    <None Include="stage\Set_stage.s" />
+    <None Include="str\Movie_tbl.s" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

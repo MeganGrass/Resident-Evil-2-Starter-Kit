@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="build|psx">
+      <Configuration>build</Configuration>
+      <Platform>psx</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{460FE962-7D9D-44C6-9028-177F1C21799F}</ProjectGuid>
+    <ProjectName>file_moji_load</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='build|psx'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='build|psx'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='build|psx'">
+    <NMakeOutput>
+    </NMakeOutput>
+    <NMakePreprocessorDefinitions>
+    </NMakePreprocessorDefinitions>
+    <ExecutablePath>C:\Framework\SDK\psx\BIN</ExecutablePath>
+    <IncludePath>C:\Framework\SDK\psx\INCLUDE</IncludePath>
+    <NMakeBuildCommandLine>gnumake build</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>gnumake rebuild</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>gnumake clean</NMakeCleanCommandLine>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='build|psx'">
+    <BuildLog>
+      <Path>obj/psx/build/$(IntDir)$(MSBuildProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\assembly\bio2.s" />
+    <None Include="..\..\assembly\custom.s" />
+    <None Include="file_moji_load.asm" />
+    <None Include="Makefile" />
+    <None Include="Makefile.link" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="file_moji_load.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\bio2\bio2.h" />
+    <ClInclude Include="..\..\bio2\controller.h" />
+    <ClInclude Include="..\..\bio2\data.h" />
+    <ClInclude Include="..\..\bio2\defines.h" />
+    <ClInclude Include="..\..\bio2\flag.h" />
+    <ClInclude Include="..\..\bio2\print.h" />
+    <ClInclude Include="..\..\bio2\psyq.h" />
+    <ClInclude Include="..\..\bio2\types.h" />
+    <ClInclude Include="..\..\custom\controller.h" />
+    <ClInclude Include="..\..\custom\custom.h" />
+    <ClInclude Include="..\..\custom\filecode.h" />
+    <ClInclude Include="..\..\custom\loadtask.h" />
+    <ClInclude Include="..\..\custom\print.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

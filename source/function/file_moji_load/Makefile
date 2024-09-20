@@ -1,0 +1,26 @@
+## Executable ##
+CC		=CCPSX
+ASM		=ASMPSX
+LINK	=SLINK
+
+## Commandline ##
+CCOPT		=-c -O2 -G0 -mgpopt -ansi -Wall -comments-c++ -Wa,sOVERLAY -nostdlib
+ASMOPT		=/l /o c+ /o an+ /o w+ /zd /x
+LINKOPT		=/psx /c /p
+PARSER		=parser "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.MAP" "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.S"
+
+## Project ##
+all: build
+build:
+	$(CC) $(CCOPT) "FILE_MOJI_LOAD.CPP" -o"OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.OBJ"
+	$(ASM) $(ASMOPT) ../../ASSEMBLY/BIO2.S,OBJ/PSX/BUILD/BIO2.OBJ
+	$(LINK) $(LINKOPT) @MAKEFILE.LINK,OBJ/PSX/BUILD/FILE_MOJI_LOAD.CPE,OBJ/PSX/BUILD/FILE_MOJI_LOAD.SYM,OBJ/PSX/BUILD/FILE_MOJI_LOAD.MAP
+	$(PARSER)
+rebuild: clean | all
+clean:
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.BIN"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.CPE"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.MAP"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.OBJ"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.SYM"
+	echo Y | DEL "OBJ\\PSX\\BUILD\\FILE_MOJI_LOAD.S"
