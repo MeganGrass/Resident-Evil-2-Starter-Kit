@@ -32,7 +32,7 @@
 				.word pl_mv04		// Turn
 				.word pl_mv05		// Aim
 				.word pl_mv06		// Kneel to pickup Item
-				.word pl_mv07		// Turn
+				.word pl_mv07		// Turn toward stairs + stairs routine
 				.word pl_mv08		// Climb Up
 				.word pl_mv09		// Jump Down
 				.word pl_mv0a		// Push Object
@@ -54,7 +54,7 @@
 				.word pl_mv04_pad	// Turn
 				.word pl_mv05_pad	// Aim
 				.word pl_mv06_pad	// Kneel to pickup Item
-				.word pl_mv07_pad	// Turn
+				.word pl_mv07_pad	// Turn toward stairs + stairs routine
 				.word pl_mv08_pad	// Climb Up
 				.word pl_mv09_pad	// Jump Down
 				.word pl_mv0a_pad	// Push Object
