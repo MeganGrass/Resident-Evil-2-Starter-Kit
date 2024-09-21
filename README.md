@@ -95,7 +95,7 @@ Quickly tap the L2/R2 buttons to unfreeze the game (for use when your debug menu
 
 
 ## Bugs
-- Hard crash when the player uses an interactive item, such as the Crank at the burning helicopter. This was was fixed in previous builds, but somehow managed to sneak back in during the ASM->C conversion and I can't remember how it was originally patched
+- Hard crash when the player uses an interactive item, such as the Valve Handle at the burning helicopter. This was fixed in previous builds, but somehow managed to sneak back in during the ASM->C conversion and I can't remember how it was originally patched
 - Hard crash when accessing the "FILE" option in the Status Screen. I've yet to look into how this got broken...
 - XA audio was entirely unsupported in previous builds and I've only just now began to reimplement it, often with completely unexpected and hilarious results ("What's Wong with Marvin?")
 
@@ -117,7 +117,7 @@ There's quite a lot that I'd like to either fix and/or change in this build of t
 
 
 ## Building/Compiling
-- PSYQ software development kit for Sony PlayStation (setup instructions: https://www.psxdev.net/help/psyq_install.html)
+- PSYQ software development kit for Sony PlayStation ([setup instructions](https://www.psxdev.net/help/psyq_install.html))
 - Kingcom's [armips](https://github.com/Kingcom/armips)
 - Lameguy64's [mkpsxiso](https://github.com/Lameguy64/mkpsxiso)
 
