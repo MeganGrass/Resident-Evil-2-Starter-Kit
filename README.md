@@ -55,7 +55,7 @@ RESK allows you to greatly bypass these old hardcoded restrictions and this is a
 
 Some CDX file headers are only very slightly different than others, but the overall structure is the same:
 
-```bash
+```
 struct CDX {
     ULONG size;     // size of file
     ULONG sector;   // sector in file (always start at 1, multiply * 0x800 for absolute file position)
