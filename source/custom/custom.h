@@ -96,7 +96,7 @@ typedef struct tagROOM_INFO
 	SHORT Pos_x;
 	SHORT Pos_z;
 	USHORT nFloor;
-	CHAR Name[32];
+	CHAR Name[33];
 };
 
 typedef struct tagMENU_WORK
