@@ -45,6 +45,7 @@ The game engine's file layout has been almost completely modified to allow for m
 - 48 (max) RDT and 48 (max) BSS per stage
 - 48 (max) Main and 48 (max) Sub BGM
 - 48 (max) DO2 files for door cutscenes
+- 80 (max) EMD files for enemies
 - Extended XA table for more voice data
 - Both Leon (PL0) and Claire (PL1) scenarios playable on the same disc
 - File checksum routines have been completely removed allowing for faster data load
