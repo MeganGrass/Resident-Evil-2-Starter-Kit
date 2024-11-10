@@ -102,7 +102,7 @@ Quickly tap the L2/R2 buttons to unfreeze the game (for use when your debug menu
 
 
 ## Notes
-STR (movie) playback is completely disabled until I can get XA functionality back into proper working order
+STR (movie) playback is currently disabled
 
 The title screen is extremely basic and currently missing a couple features
 
