@@ -165,9 +165,3 @@ Contributions and feedback are always welcome :)
 PSYQ software development kit for Sony PlayStation is copyright (©) [Sony Computer Entertainment Inc.](https://sonyinteractive.com/)
 
 All rights, including the copyrights of game, scenario, music and program are reserved by [CAPCOM Co., Ltd.](https://www.capcom.com/)
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
