@@ -93,7 +93,7 @@ Use the L2/R2 buttons while in-game to change the currently equipped weapon
 Use the L2/R2 buttons to modify the inventory
 
 #### **Anti-Freeze**
-Quickly tap the L2/R2 buttons to unfreeze the game (for use when your debug menu settings soft-lock the game, but it cannot fix everything)
+Quickly tap the L1+SQUARE buttons to unfreeze the game (for use when your debug menu settings soft-lock the game, but it cannot fix everything)
 
 
 ## Bugs
