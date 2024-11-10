@@ -99,7 +99,6 @@ Quickly tap the L2/R2 buttons to unfreeze the game (for use when your debug menu
 ## Bugs
 - Hard crash when the player uses an interactive item, such as the Valve Handle at the burning helicopter. This was fixed in previous builds, but somehow managed to sneak back in during the ASM->C conversion and I can't remember how it was originally patched
 - Hard crash when accessing the "FILE" option in the Status Screen. I've yet to look into how this got broken...
-- XA audio was entirely unsupported in previous builds and I've only just now began to reimplement it, often with completely unexpected and hilarious results ("What's Wong with Marvin?")
 
 
 ## Notes
@@ -146,7 +145,7 @@ This batch file is all of the above in consecutive order but an ISO is also crea
 
 Because this project fundamentally changes the entire ISO structure, patches end up being almost as large as the original ISO and will likely never be provided
 
-However, a [demo build](https://drive.google.com/file/d/1q0CBDN5wWsZDBkPQ1hkuHp63lAT8Wwce/view?usp=sharing) is available that showcases all of the changes made. This build contains only a very small portion of the game so it cannot be completed to finish. Furthermore, Ex-Battle data is missing entirely so any attempt to get that scenario working will fail
+However, a [demo build](https://drive.google.com/file/d/1iPGd1bE3mBeBnioStvJ8H_IhspJQFvfG/view?usp=sharing) is available that showcases all of the changes made. This build contains only a very small portion of the game so it cannot be completed to finish. Furthermore, Ex-Battle data is missing entirely so any attempt to get that scenario working will fail
 
 #### Will you please implement *xyz* feature?
 
