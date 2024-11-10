@@ -21,10 +21,10 @@
     <None Include="disk\task.s">
       <Filter>disk</Filter>
     </None>
-    <None Include="enemy\cdemd0.s">
+    <None Include="enemy\emd00.s">
       <Filter>enemy</Filter>
     </None>
-    <None Include="enemy\cdemd1.s">
+    <None Include="enemy\emd01.s">
       <Filter>enemy</Filter>
     </None>
     <None Include="overlay\diedemo.s">

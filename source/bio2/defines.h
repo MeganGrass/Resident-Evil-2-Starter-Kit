@@ -23,3 +23,5 @@
 #define LZout						0x801A5800	// Decompressed TIM Buffer
 
 #define PLDFile						0x801BFA14	// PLD Buffer
+
+#define VBFile						0x801BFA14	// VB Buffer

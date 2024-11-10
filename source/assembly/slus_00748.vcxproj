@@ -66,8 +66,8 @@ build.bat</NMakeBuildCommandLine>
     <None Include="directive.s" />
     <None Include="disk\filecode.s" />
     <None Include="disk\task.s" />
-    <None Include="enemy\cdemd0.s" />
-    <None Include="enemy\cdemd1.s" />
+    <None Include="enemy\emd00.s" />
+    <None Include="enemy\emd01.s" />
     <None Include="overlay.s" />
     <None Include="overlay\diedemo.s" />
     <None Include="overlay\ending.s" />

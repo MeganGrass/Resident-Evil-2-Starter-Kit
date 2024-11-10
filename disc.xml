@@ -1,5 +1,5 @@
 <iso_project image_name="SLUS_00748.BIN" cue_sheet="SLUS_00748.CUE">
-  <track type="data">
+  <track type="data" xa_edc="true" new_type="false">
     <identifiers system="PLAYSTATION" application="PLAYSTATION" volume="SLUS_00748" publisher="CAPCOM CO.,LTD." data_preparer="CAPCOM CO.,LTD." creation_date="1998072114000000+36"/>
     <license file="asset/license_data.dat"/>
     <default_attributes gmt_offs="36" xa_attrib="32" xa_perm="1365" xa_gid="0" xa_uid="0"/>
@@ -325,7 +325,7 @@
       </dir>
       <file name="SYSTEM.CNF" source="ASSET/SYSTEM.CNF" type="data"/>
       <file name="SLUS_007.48" source="DISC/SLUS_007.48" type="data"/>
-      <dummy sectors="150"/>
+      <dummy sectors="150" type="0"/>
     </directory_tree>
   </track>
   <track type="audio" trackid="02" source="ASSET/ZNULL.WAV"/>

@@ -62,6 +62,12 @@ Load_pld:							equ 0x8009CE70
 Load_plw_index:						equ 0x8009CEB8
 
 /*
+*	Enemy Table
+*/
+emd00_pos:							equ cdemd0_pos
+emd01_pos:							equ cdemd1_pos
+
+/*
 *	Player Function
 */
 Plmv00_pad:							equ 0x8009CF00

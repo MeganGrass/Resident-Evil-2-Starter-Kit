@@ -20,6 +20,7 @@ extern "C" {
 	*	0x800eaea8		__bss_orgend
 	*/
 
+	extern tagEDT_TABLE_WORK Enemy_edt;					// 0x801f8e10
 
 	/*
 	*	rdata
@@ -546,7 +547,7 @@ extern "C" {
 	extern STATUS St;									// 0x800d5bf0
 	extern CC_WORK Cc_work;								// 0x800d6c48
 	extern SndVolume Pan_vol;							// 0x800d7598
-	extern ULONG(*pVh_tbl)[8];							// 0x800d75a0
+	extern ULONG* pVh_tbl[8];							// 0x800d75a0
 	extern SEQCTR Seq_ctr[3];							// 0x800d75c0
 	extern VM_DISP Vm_disp;								// 0x800d75d8
 	extern SHORT Om_fall_old_dir_x;						// 0x800d7638
@@ -580,7 +581,7 @@ extern "C" {
 	extern ULONG(*m_pl_weapon_parts)[1];				// 0x800d8ce8
 	extern ULONG(*gpPl_tmd2_ptr)[1];					// 0x800d8cec
 	extern ESP_WORK Esp[96];							// 0x800d8cf0
-	extern EDT_TABLE_WORK* pEdt_adr;					// 0x800dbb70
+	extern tagEDT_TABLE_WORK* pEdt_adr;					// 0x800dbb70
 	extern ULONG UnkSndFlg0;							// 0x800dbb88
 	extern ULONG UnkSndSysFlg0;							// 0x800dbb8c
 	extern POLY_EFF Poly_eff[32];						// 0x800dbb98
@@ -609,6 +610,7 @@ extern "C" {
 	extern BGMCTR* pBgm;								// 0x800dfd64
 	extern LINE_SCR Line;								// 0x800dfd68
 	extern UCHAR UnknownPadSetFlag;						// 0x800e2a80
+	extern ULONG UnknownSndSysFlg;						// 0x800e2a84
 	extern UCHAR Ret_Value[8];							// 0x800e2a88
 	extern MATRIX GsMWSMATRIX;							// 0x800e2a90
 	extern MOJIDISP Moji;								// 0x800e2ab0
@@ -645,7 +647,8 @@ extern "C" {
 	VOID Xa_control_play(VOID);
 	VOID Xa_control_end(VOID);
 	ULONG Cd_read(ULONG File_no, ULONG* Address, ULONG Mode, UCHAR* Mess);
-	ULONG Cd_read_s(ULONG File_no, ULONG Mode, ULONG* Address, ULONG Vab_id);
+	//ULONG Cd_read_s(ULONG File_no, ULONG Mode, ULONG* Address, ULONG Vab_id);
+	ULONG Cd_read_s(ULONG File_no, ULONG Mode, ULONG* Address, ULONG Vab_id, UCHAR* Mess);
 	//VOID Cd_seek(ULONG File_no, ULONG Mode, UCHAR* Mess);
 	VOID Cd_seek(UCHAR File_no, UCHAR* Mode);
 	VOID Cd_cdsync_cb(UCHAR intr, UCHAR* result);
@@ -1586,6 +1589,7 @@ extern "C" {
 
 	// SND.C
 	VOID Snd_sys_init(VOID);
+	VOID FUN_800594c8(SHORT vabid, ULONG flag);	// closes the VAB
 	VOID Snd_sys_init2(VOID);
 	VOID Snd_sys_Allvoff(VOID);
 	VOID Snd_sys_init_sub(VOID);
@@ -2061,8 +2065,11 @@ extern "C" {
 	int DrawSync(int mode);
 	int DsGetSector(void* madr, int size);
 	int DsPosToInt(DslLOC* p);
-	short SsVabTransCompleted(short param_1);
-	short SsVabTransBodyPartly(UCHAR* param_1, ULONG param_2, short param_3);
+	short SsVabTransCompleted(short immediateFlag);
+	short SsVabTransBodyPartly(UCHAR* addr, ULONG bufsize, short vabid);
+	short SsVabOpenHeadSticky(UCHAR* addr, short vabid, ULONG sbaddr);
+	long SpuSetTransferMode(long mode);
+	void SsVabClose(short vab_id);
 	void DeliverEvent(ULONG ev1, long ev2);
 	void ExitCriticalSection(void);
 

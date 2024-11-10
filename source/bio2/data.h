@@ -1349,7 +1349,7 @@ typedef struct tagEDT_TABLE_WORK {
 	UCHAR pan_prog;
 	UCHAR tone_pri;
 	UCHAR monopoly;
-} EDT_TABLE_WORK;
+};
 typedef struct tagSEQCTR {
 	UCHAR Flg;
 	UCHAR Ctrl;

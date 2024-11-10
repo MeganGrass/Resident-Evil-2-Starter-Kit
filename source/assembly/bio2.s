@@ -835,6 +835,7 @@ OVERLAY	group
 
 	;; SND.C
 	global Snd_sys_init
+	global FUN_800594c8
 	global Snd_sys_init2
 	global Snd_sys_Allvoff
 	global Snd_sys_init_sub
@@ -1286,9 +1287,13 @@ OVERLAY	group
 	global SsVabTransBodyPartly
 	global DeliverEvent
 	global ExitCriticalSection
+	global SpuSetTransferMode
+	global SsVabOpenHeadSticky
+	global SsVabClose
 
 	;; DATA
 	global Xa_no
+	global Enemy_edt
 	global floc
 	global Xa_sector00
 	global Serial_no
@@ -1983,6 +1988,7 @@ OVERLAY	group
 	global pBgm
 	global Line
 	global UnknownPadSetFlag
+	global UnknownSndSysFlg
 	global Ret_Value
 	global GsMWSMATRIX
 	global Moji
@@ -2819,6 +2825,7 @@ Vib_set0:	equ 0x80059348
 Vib_set1:	equ 0x80059394
 Vib_fade_set:	equ 0x800593E4
 Snd_sys_init:	equ 0x80059438
+FUN_800594c8:	equ 0x800594c8
 Snd_sys_init2:	equ 0x80059514
 Snd_sys_Allvoff:	equ 0x80059634
 Snd_sys_init_sub:	equ 0x80059654
@@ -3777,6 +3784,8 @@ FUN_800395b8:				equ 0x800395b8
 
 Xa_no:								equ 0x80010818
 
+Enemy_edt:							equ 0x801f8e10
+
 floc:								equ 0x800988a4
 Xa_sector00:						equ 0x8009a37c
 Serial_no:							equ 0x8009a3e0
@@ -4471,6 +4480,7 @@ Main: 								equ 0x800dfae0
 pBgm: 								equ 0x800dfd64
 Line: 								equ 0x800dfd68
 UnknownPadSetFlag: 					equ 0x800e2a80
+UnknownSndSysFlg: 					equ 0x800e2a84
 Ret_Value: 							equ 0x800e2a88
 GsMWSMATRIX: 						equ 0x800e2a90
 Moji: 								equ 0x800e2ab0

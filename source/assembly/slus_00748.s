@@ -60,8 +60,8 @@ TRUE:					equ 1
 *	Enemy
 */
 .include "./source/function/Emd_load_file/Emd_load_file.asm"
-.include "./source/assembly/enemy/cdemd0.s"
-.include "./source/assembly/enemy/cdemd1.s"
+.include "./source/assembly/enemy/emd00.s"
+.include "./source/assembly/enemy/emd01.s"
 
 /*
 *	Movie
@@ -94,6 +94,7 @@ TRUE:					equ 1
 .include "./source/assembly/Sound/Snd_bgm_set.s"
 .include "./source/assembly/Sound/Snd_bgm_ck.s"
 .include "./source/function/Load_bgm/Load_bgm.asm"
+//.include "./source/function/Snd_sys_enem_set/Snd_sys_enem_set.asm"
 
 /*
 *	Status
